@@ -11,8 +11,8 @@ public class FaceBook {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
-		driver.findElement(By.id("email")).sendKeys("9965524492");
-		driver.findElement(By.id("pass")).sendKeys("manisiva65");
+		driver.findElement(By.id("email")).sendKeys("9924492");
+		driver.findElement(By.id("pass")).sendKeys("mava65");
 		driver.findElement(By.name("login")).click();
 	    
 	}
